@@ -1,0 +1,7 @@
+# client settings referencing server.scl symbols
+[client]
+endpoint = ${network.host}
+retries = 3
+
+[pool]
+size = ${limits.max_connections}

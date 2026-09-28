@@ -1,0 +1,9 @@
+# network configuration for the demo app
+[network]
+host: string = "localhost"
+port: number = 8080
+use_tls: bool = false
+
+[limits]
+max_connections = 100
+timeout_seconds = 30
